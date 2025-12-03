@@ -1,11 +1,13 @@
+import defaultAvatar from "../assets/profile_photo.jpeg"
+
 export default function Profile({
   name = "Lucas Borges",
   role = "Software Analyst",
-  tech = ["JavaScript", "PHP", "React"],
-  github = "https://github.com/iamlucasdev123",
+  tech = ["JavaScript", "PHP", "React", "Laravel"],
+  github = "https://github.com/iamdevlucas123",
   location = "Florianópois, Brasil",
   about = "Apaixonado por computação",
-  avatar = "https://via.placeholder.com/160",
+  avatar = defaultAvatar,
 }) {
   return (
     <section className="flex items-center justify-center px-6 py-12">

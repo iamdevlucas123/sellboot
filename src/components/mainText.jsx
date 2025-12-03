@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import { button } from "framer-motion/client"
 
 const text = "Learn PHP and JavaScript"
 
@@ -34,6 +35,8 @@ export default function MainText() {
           </motion.span>
         ))}
       </motion.div>
+
+      <a href=""></a>
 
     </main>
   )

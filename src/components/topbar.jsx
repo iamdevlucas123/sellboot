@@ -2,7 +2,7 @@ import logo from "../assets/logo.png"
 
 export default function TopBar() {
   return (
-    <header className="flex items-center justify-center mt-6">
+    <header className="flex items-center justify-center mt-3">
       <div className="flex w-full max-w-5xl items-center justify-between rounded-xl border border-gray-300 bg-gray-200 px-6 shadow-md">
         <a href="#" className="text-lg font-semibold text-gray-900">
           <img src={logo} alt="logo" className="h-13 w-auto object-contain" />
@@ -18,7 +18,7 @@ export default function TopBar() {
             type="button"
             className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
           >
-            Start now
+            Login
           </button>
         </nav>
       </div>

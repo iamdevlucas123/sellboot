@@ -8,7 +8,7 @@ export default function Description() {
         <article className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-xl transition hover:-translate-y-1 hover:shadow-2xl">
           <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-amber-500 via-orange-400 to-yellow-400" />
           <div className="flex items-start gap-4 p-6">
-            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-100">
+            <div className="flex h-10 w-34 items-center justify-center border rounded-5x2 bg-amber-100">
               <img src={logo_js} alt="JavaScript logo" className="h-10 w-10 object-contain" />
             </div>
             <div className="space-y-3">
@@ -19,7 +19,7 @@ export default function Description() {
                 desktops e até IoT.
               </p>
               <div className="flex flex-wrap gap-2 text-xs font-semibold">
-                <span className="rounded-full bg-amber-50 px-3 py-1 text-amber-800">Front-end</span>
+                <span className="rounded-full bg-amber-50 px-5 py-1 text-amber-800">Front-end</span>
                 <span className="rounded-full bg-slate-100 px-3 py-1 text-slate-800">Full-stack</span>
               </div>
             </div>
@@ -29,7 +29,7 @@ export default function Description() {
         <article className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-xl transition hover:-translate-y-1 hover:shadow-2xl">
           <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-sky-500 via-blue-500 to-indigo-500" />
           <div className="flex items-start gap-4 p-6">
-            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-sky-100">
+            <div className="flex h-10 w-28 items-center justify-center border rounded-5x2 bg-sky-100">
               <img src={logo_php} alt="PHP logo" className="h-10 w-10 object-contain" />
             </div>
             <div className="space-y-3">
