@@ -1,4 +1,4 @@
-import demoVideo from "../assets/demonstrate_video.mp4"
+import demoVideo from "../../assets/demonstrate_video.mp4"
 
 export default function DemonstrateVideo() {
   return (

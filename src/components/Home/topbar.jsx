@@ -1,6 +1,6 @@
-import logo from "../assets/logo.png"
+import logo from "../../assets/logo.png"
 
-export default function TopBar() {
+export default function TopBar({ onLogin = () => {} }) {
   return (
     <header className="flex items-center justify-center mt-3">
       <div className="flex w-full max-w-5xl items-center justify-between rounded-xl border border-gray-300 bg-gray-200 px-6 shadow-md">
@@ -16,6 +16,7 @@ export default function TopBar() {
           </ul>
           <button
             type="button"
+            onClick={onLogin}
             className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
           >
             Login

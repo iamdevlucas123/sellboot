@@ -1,5 +1,5 @@
-import logo_js from "../assets/JavaScript-logo.jpg"
-import logo_php from "../assets/PHP-logo (1).svg"
+import logo_js from "../../assets/JavaScript-logo.jpg"
+import logo_php from "../../assets/PHP-logo (1).svg"
 
 export default function Description() {
   return (

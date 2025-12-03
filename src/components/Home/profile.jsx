@@ -1,9 +1,9 @@
-import defaultAvatar from "../assets/profile_photo.jpeg"
+import defaultAvatar from "../../assets/profile_photo.jpeg"
 
 export default function Profile({
   name = "Lucas Borges",
   role = "Software Analyst",
-  tech = ["JavaScript", "PHP", "React", "Laravel"],
+  tech = ["JavaScript", "PHP", "React", "Laravel", "Node.js", "MySQL"],
   github = "https://github.com/iamdevlucas123",
   location = "Florianópois, Brasil",
   about = "Apaixonado por computação",
